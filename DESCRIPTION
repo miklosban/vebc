@@ -1,0 +1,18 @@
+Package: vebcMeta
+Title: Vertebrate Ecology, Behaviour and Conservation Database metadata template creator
+Version: 1.0
+Authors@R: person(
+    "Miklós", 
+    "Bán", 
+    email = "banm@vocs.unideb.hu", 
+    role = c("aut", "cre"))
+Description: Based on the field names and the table name it generates two metadata template file. It is using the obm.R package to connect the database and fetch a table structure.
+Depends: R (>= 3.1.0)
+License: GPL-3
+LazyData: true
+Imports: 
+    obm, 
+    openxlsx
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
