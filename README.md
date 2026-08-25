@@ -20,7 +20,7 @@ devtools::install_github("miklosban/vebc")
 library(vebc)
 
 # Generate OBM metadata for the dataset uploaded into the table called "Behaviour" in schema "vebc"
-generate_obm_metadata("Behaviour", "vebc")
+generate_metadata_files("Behaviour", "vebc")
 
 ```
 
