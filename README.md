@@ -13,13 +13,16 @@ You can install the package directly from GitHub using `devtools`:
 First, install and load the `devtools` package (if you haven't already):
 
 ```r
+# Installation
 install.packages("devtools")
 library(devtools)
-
 devtools::install_github("miklosban/vebc")
+
+# Usage
 library(vebc)
 
-# Generate OBM metadata for the dataset uploaded into the table called "Behaviour" in schema "vebc"
+## Generate metadata spreadsheet files for the dataset uploaded 
+## into the OBM SQL table called "Behaviour" in schema "vebc"
 generate_metadata_files("Behaviour", "vebc")
 
 ```
