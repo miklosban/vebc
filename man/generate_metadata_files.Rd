@@ -9,7 +9,7 @@ generate_metadata_files(
   schema_name = "sex_ratio_evolution",
   url = "https://openbiomaps.org",
   project = "sex_ratio_evolution",
-  output_dir = NULL
+  output_dir = getwd()
 )
 }
 \arguments{
@@ -42,7 +42,7 @@ This files needed to document table- and variable-level metadata.
 }
 \examples{
 \dontrun{
-generate_metadata("my_table", "optional: schema name")
+generate_metadata_files("my_table", "optional: schema_name", "optional: url", "optional: project", "optional: output_dir")
 }
 
 }
