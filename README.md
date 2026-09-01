@@ -10,11 +10,13 @@
 
 You can install the package directly from GitHub using the devtools package:
 
+```r
 install.packages("devtools")
 
 library(devtools)
 
 devtools::install_github("miklosban/vebc")
+```
 
 ### Option 2: Run locally with load_all()
 
@@ -28,9 +30,11 @@ Alternatively, download the repository as a ZIP file from GitHub and extract it.
 
 Then open R or RStudio, set the working directory to the package directory, and run:
 
+```r
 library(devtools)
 
 devtools::load_all()
+```
 
 This loads the package directly from the source code without installing it.
 
